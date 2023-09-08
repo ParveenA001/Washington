@@ -6,15 +6,24 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffb6c1;
+            background-color: #e0e0e0;
         }
-        img.left {
-            float: left; /* Left-justify the image */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            clear: both; /* Clear the float to prevent layout issues */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            float: left; /* Float the image to the left */
             margin-right: 20px; /* Add some space to the right of the image (adjust as needed) */
         }
-        .text-box {
-            margin-top: 10px;
-            text-align: left;
+        .text {
+            /* Apply styles to the text */
         }
     </style>
 </head>

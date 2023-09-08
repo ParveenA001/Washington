@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e0e0e0;
+            background-color: #ffb6c1;
         }
         .container {
             max-width: 800px;
@@ -14,15 +14,17 @@
             padding: 20px;
         }
         .content {
-            clear: both; /* Clear the float to prevent layout issues */
+            /* Apply styles to the content container */
         }
         img {
             max-width: 100%;
             height: auto;
-            float: left; /* Float the image to the left */
+            display: inline-block; /* Display the image inline with the text */
+            vertical-align: middle; /* Align the image vertically with the text */
             margin-right: 20px; /* Add some space to the right of the image (adjust as needed) */
         }
         .text {
+            display: inline-block; /* Display the text inline with the image */
             /* Apply styles to the text */
         }
     </style>

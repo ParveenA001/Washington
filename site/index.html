@@ -1,12 +1,15 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>A look at me!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffb6c1;
+            background-color: #e0e0e0;
         }
         .container {
             max-width: 800px;
@@ -14,79 +17,30 @@
             padding: 20px;
         }
         .content {
-            clear: both; /* Clear the float to prevent layout issues */
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center content vertically */
         }
-        img {
-            max-width: 100%;
+        .image {
+            max-width: 150px; /* Adjust the image width as needed */
             height: auto;
-            display: inline-block;
-            float: left; /* Float the image to the left */
-            margin-right: 20px; /* Add some space to the right of the image (adjust as needed) */
+            margin-right: 20px; /* Add space between images and text */
         }
         .text {
-             display: inline-block; 
-            /* Apply styles to the text */
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <h1>Parveen Ayoubi</h1>
-        <img src="my-img.jpg" alt="Professional and Elegant">
-        <div class="text-box">
-            <h2>A Computer Engineering Student</h2>
-            <p>Learning to trust myself and believe in my work</p>
-        </div>
-        <div class="text-box">
-            <h2>About me:</h2>
-            <p>I am a graduate computer engineering student studying at George Washington University. I am focusing on Computer Architecture and High Performance Computing. I fell in love with architecture, processors, and speed when I took the first architecture course in my undergrad and knew thats what I wanted to pursue. If you want to contact me you can do so by emailing me on my school email or sending me a message.</p>
-        </div>
-    </div>
-</body>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>A look at me!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffb6c1;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .content {
-            clear: both; /* Clear the float to prevent layout issues */
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: inline-block;
-            float: left; /* Float the image to the left */
-            margin-right: 20px; /* Add some space to the right of the image (adjust as needed) */
-        }
-        .text {
-             
+            /* Apply styles to the text element */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Why I Want to do Computer Engineering for my Masters?</h1>
-        <img src="image2.jpg" alt="A risc 5 processor">
-        <div class="text-box">
-            <h2>My Passion</h2>
-            <p>I learned a lot during my undergrad and I truly realized that engineering was my calling. But it did not start there.</p>
+        <h1>Welcome to Your Website</h1>
+        <div class="content">
+            <img class="image" src="my-img.jpg" alt="Description of image 1">
+            <img class="image" src="image2.jpg" alt="Description of image 2">
+            <p class="text">
+                This is the text that appears next to the images. You can add more text here as needed.
+            </p>
         </div>
-        <div class="text-box">
-            <h2>Text Box 2</h2>
-            <p>This is the content of text box 2.</p>
-        </div>
+        <!-- Add more content as needed -->
     </div>
 </body>
 </html>
